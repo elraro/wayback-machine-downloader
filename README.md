@@ -1,13 +1,12 @@
 # Wayback Machine Downloader
 
-[![Gem Version](https://badge.fury.io/rb/wayback_machine_downloader.svg)](https://rubygems.org/gems/wayback_machine_downloader/)
-[![Build Status](https://travis-ci.org/hartator/wayback-machine-downloader.svg?branch=master)](https://travis-ci.org/hartator/wayback-machine-downloader)
+[![Build Status](https://travis-ci.org/elraro/wayback-machine-downloader.svg?branch=master)](https://travis-ci.org/elraro/wayback-machine-downloader)
 
 Download an entire website from the Internet Archive Wayback Machine.
 
 ## Installation
 
-You need to install Ruby on your system (>= 1.9.2) - if you don't already have it.
+You need to install Ruby on your system (>= 2.7.2) - if you don't already have it.
 Then run:
 
     gem install wayback_machine_downloader
@@ -179,11 +178,11 @@ Example:
 
 As an alternative installation way, we have a Docker image! Retrieve the wayback-machine-downloader Docker image this way:
 
-    docker pull hartator/wayback-machine-downloader
+    docker pull elraro/wayback-machine-downloader
 
 Then, you should be able to use the Docker image to download websites. For example:
 
-    docker run --rm -it -v $PWD/websites:/websites hartator/wayback-machine-downloader http://example.com
+    docker run --rm -it -v $PWD/websites:/websites elraro/wayback-machine-downloader http://example.com
 
 ## Contributing
 

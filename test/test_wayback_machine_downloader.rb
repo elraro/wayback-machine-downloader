@@ -103,7 +103,7 @@ class WaybackMachineDownloaderTest < Minitest::Test
 
   def test_all_get_file_list_curated_size
     @wayback_machine_downloader.all = true
-    assert_equal 69, @wayback_machine_downloader.get_file_list_curated.size
+    assert_equal 75, @wayback_machine_downloader.get_file_list_curated.size
   end
  
   # Testing encoding conflicts needs a different base_url
